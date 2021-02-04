@@ -1,0 +1,295 @@
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+body {
+  background-color: #9892A3;
+}
+
+#mainNav {
+  background-color: #D9B38D;
+  width: 100%;
+  /* margin-bottom: 10px; */
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.push-button-3d {
+    box-shadow: 0 4px #D9B38D;
+    color: #fff;
+    background-color: #B0A89A;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all .2s ease;
+    font-weight: 900;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.push-button-3d:active {
+    box-shadow: 0 1px #c1a23c;
+    transform: translateY(3px);
+}
+
+#cafeFeature {
+  background-image: url("img/cafe1.jpg");
+}
+
+#bakeryFeature {
+  background-image: url("img/bakery3.webp");
+}
+
+#foodTruckFeature {
+  background-image: url("img/foodTruck2.jpg");
+}
+
+#cafeFeature, #bakeryFeature, #foodTruckFeature {
+  opacity: 0.65;
+  min-height: 800px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#cafeFeature p {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+  position: absolute;
+  left: 60%;
+  top: 50%;
+  width: auto;
+  text-align: center;
+  border-radius: 5px;
+}
+
+#bakeryFeature p {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+  position: -webkit-sticky;
+  text-align: center;
+  border-radius: 5px;
+  top: 80%;
+}
+
+#foodTruckFeature p {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+  position: -webkit-sticky;
+  text-align: left;
+  border-radius: 5px;
+  top: 80%;
+}
+
+#content h3, #content h1 {
+  opacity: 100;
+  text-align: center;
+  background-color: #9892A5;
+  color: #000;
+  padding-bottom: 5px;
+}
+
+#covidSpecials {
+  background-color: yellow;
+  margin: 5px;
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+  border-style: double;
+  border-color: red;
+  border-radius: 20px;
+}
+
+#disApplied {
+  float: right;
+  color: red;
+
+}
+
+#innerBakery, #ourStory {
+  background-color: white;
+  width: 90%;
+  margin-left: 5%;
+  border-radius: 14px;
+  padding: 2px;
+  text-align: center;
+  letter-spacing: 1.5px;
+}
+
+#ourBakery {
+  width: 80%;
+  margin-left: 10%;
+  border-radius: 5px;
+}
+
+#bakeryMainImage {
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  max-height: 700px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+#bakeryMainDescrip {
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  width: 60%;
+  margin-left: 20%;
+}
+
+#imgSelect p {
+  text-align: center;
+}
+
+#imgSelect img {
+  width: auto;
+  height: 100px;
+  border-radius: 5px;
+}
+
+#leftMain {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  height: 500px;
+  width: 65%;
+  float: left;
+}
+#rightMain {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  background-color: lightblue;
+  height: 500px;
+  width: 25%;
+  float: left;
+  border-radius: 25px;
+  margin-right: 5%;
+  padding: 10px;
+
+}
+#cartItems {
+  height: auto;
+  width: auto;
+}
+#cartTotal {
+  float: right;
+  height: auto;
+  width: auto;
+}
+#sellableContent {
+  background-color: lightyellow;
+  overflow: scroll;
+  width: 60%;
+  height: 100%;
+  margin-left: 20%;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.itemImg {
+  max-width: 200px;
+  max-width: 200px;
+  border-radius: 5px;
+}
+
+.price:before, #spanTotal:before {
+    content: "$";
+}
+
+
+.menuBtnFooter {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 5px;
+  margin-left: 5px;
+  float: left;
+}
+
+#footerInfoOne {
+  float: left;
+  width: 50%;
+  text-align: center;
+  margin-top: 15px;
+}
+
+#footerInfoTwo {
+  float: left;
+  width: 50%;
+}
+
+#footerBase {
+  width: 100%;
+  margin: 10px;
+  text-align: center;
+}
+
+#footer {
+  background-color: #D9B38D;
+  padding: 10px;
+  margin: 10px;
+}
+
+#footerCopyright {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    text-align: right;
+}
+
+#newsletterSignup {
+  border-radius: 5px;
+  border-style: groove;
+  margin-left: 30%;
+  padding: 5px;
+  width: 40%;
+}
+
+#newsletterSignup:hover {
+  border-radius: 5px;
+  border-style: groove;
+  margin-left: 30%;
+  padding: 5px;
+  width: 40%;
+  background-color: #e0cd60;
+}
+
+#socialMedia svg {
+  margin: 5px;
+  padding: 3px;
+}
+
+/* NEWSLETTER COPIED */
+.ui-widget-header,.ui-state-default, ui-button {
+  background:#e0cd60;
+  border: 1px solid #b9cd6d;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.ui-widget-content {
+  min-width: 30%;
+  min-height: 30%;
+  background: #eeeeee;
+  text-align: center;
+}

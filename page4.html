@@ -1,0 +1,60 @@
+<!-- I ended up not including this page. It was originally meant to be a page
+dedicated to the food truck but I couldn't think of useful content to include.
+I wanted to leave this in to show an earlier example of the project as I was
+still figuring it out - > This exmaple doesn't incldue the dialog box in the
+content div and also includes bootstrapCSS and not jQuery UI CSS like the
+other pages
+ -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Food Truck</title>
+  <!-- include Bootstrap CSS  -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+  crossorigin="anonymous">
+
+  <!-- include custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="header" class="header">
+    <div id="mainNav"></div>
+  </div>
+
+  <div id="content" class="content"></div>
+  <div id="footer" class="footer">
+    <div id="footerInfoOne">
+      <h3>Maria's Bakery</h3>
+      <p id="address">
+        123 Fake Street, Denver CO 80014<br>
+        <a href="tel:(123) 456-7890">Call us at (123) 456-7890</a>
+      </p>
+      <p id="socialMedia"></p>
+      <p id="newsletterSignup">Sign up for our Newsletter</p>
+    </div>
+    <div id="footerInfoTwo">
+      <h5>HOURS</h5>
+      <p>Everyday: 7AM - 8pm</p>
+      <p>Closed Easter Sunday, Christmas Day, and New Year’s Day. Special holiday hours for Independence Day, Halloween, Thanksgiving, Christmas Eve, and New Year’s Eve.</p>
+      <h5>Directions</h5>
+      <p>From I-25:</p>
+      <p>Exit Arapahoe, head West (toward Mountains). Maria’s Bakery is located at the far left corner of Arapahoe and Yosemite.</p>
+    </div>
+    <div id="footerBase"></div>
+    <div id="footerCopyright">
+      <p>&#169; 2020 Maria's Bakery. All Rights Reserved.</p>
+    </div>
+  </div>
+
+  <!-- Load jquery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <!-- Load Custom JS -->
+  <script src="index.js"></script>
+
+</body>
+</html>
